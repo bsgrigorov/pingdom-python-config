@@ -5,7 +5,7 @@ Check management: create, delete, update, list
 ## Uptime Checks
 In order to run the scripts you will need an API token from Pingdom. You can create one [here](https://my.pingdom.com/app/api-tokens) or reuse an existing one.
 
-To create or update the checks you will need to make changes to [checks.yaml](src/checks.yaml), export the token and run the script.
+To create or update the checks you will need to make changes to [checks](checks) folder, export the token and run the script.
 ``` code:: shell
 $ export PINGDOM_API_TOKEN=
 $ python src/configure_checks.py
