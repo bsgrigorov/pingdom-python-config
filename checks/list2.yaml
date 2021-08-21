@@ -1,0 +1,29 @@
+# integration IDs:
+# slack: 107056
+# Below values will override the template
+# 
+# type: http
+# port: 443
+# paused: false
+# url: "/"
+# resolution: 1
+# encryption: true
+# integrations: [slack]
+ExampleAPI2:
+  host: api2.example.com
+  tags: api,production,p2
+ExampleDocs2:
+  host: docs2.example.com
+  url: "/health"
+  tags: docs,production,p3
+  integrations: [pagerduty, slack]
+ExampleAllValues2:
+  host: proj2.example.com
+  tags: proj,production,p2
+  type: http
+  port: 443
+  paused: false
+  url: "/"
+  resolution: 1
+  encryption: true
+  integrations: [slack]
