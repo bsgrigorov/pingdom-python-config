@@ -1,7 +1,7 @@
 # Pingdom API
 We are using Pingdom API v3 and a python library for v3 [pingdomv3](https://github.com/cheney-yan/pingdom-py-api-v3).
 Check management: create, delete, update, list
-
+ 
 ## Uptime Checks
 In order to run the scripts you will need an API token from Pingdom. You can create one [here](https://my.pingdom.com/app/api-tokens) or reuse an existing one.
 
